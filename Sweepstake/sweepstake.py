@@ -9,7 +9,10 @@ with open('pot4.csv', 'r') as in_file:
     for row in reader:
         teams.append(row[0])
 
-user_input = input('Please provide a list of names separated by commas: ')
+while True:
+    user_input = input('Please provide a list of names separated by commas: ')
+    if user_input != "":
+        break
 edited_input = user_input.replace(" ", "")
 split_names = edited_input.split(',')
 names = []
