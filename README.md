@@ -2,7 +2,7 @@
 A collection of some of the smaller personal projects that I have created.
 
 ### Consecutive Numbers
-This program loops through a list of provided numbers and adds together any consecutive numbers that are of the same value before returning a list with those values alongside any values that weren't summed. For example, [1,2,2,2,4,4,3] would return [1,6,8,3].
+This program loops through a list of provided numbers and adds together any consecutive numbers that are of the same value before returning a list with those values alongside any values that weren't summed. For example, `[1,2,2,2,4,4,3]` would return `[1,6,8,3]`.
 
 ### FizzBuzz
 A simple program for the famous game where any number divisible by 3 is replaced with 'Fizz', any number divisible by 5 is replaced with 'Buzz', and any numbers divisible by both is replaced with 'FizzBuzz'.
