@@ -11,4 +11,4 @@ A simple program for the famous game where any number divisible by 3 is replaced
 A program that calculates whether a year is a leap year.
 
 ### Sweepstake
-A simulated draw for the 2022 World Cup, although the csv data could be replaced with another tournament. The draw is split across multiple pots based on the seedings for the World Cup group stage draw to ensure that each person receives teams of roughly the same level of ability rather than a completely randomd draw. It's limited to a maximum of eight people in the draw.
+A simulated draw for the 2022 World Cup, although the csv data could be replaced with another tournament. The draw is split across multiple pots based on the seedings for the World Cup group stage draw to ensure that each person receives teams of roughly the same level of ability rather than a completely random draw. It's limited to a maximum of eight people in the draw.
