@@ -32,7 +32,7 @@ def process(data):
         team_chosen = {name: choice}
         complete_list.append(team_chosen)
         count += 1
-        time.sleep(7)
+        time.sleep(3)
         print(choice, name)
         if count % len(names) == 0:
             names_copy = copy.deepcopy(names)
@@ -63,9 +63,14 @@ with open('topteams.csv', 'r') as in_file:
         teams.append(row[0])
 
 final = process(teams)
-print(final)
 
-with open('sweepstake.csv', 'w', newline='') as f_output:
-    csv_output = csv.writer(f_output) 
-    for row in final:
-            csv_output.writerow([row])
+
+with open('sweepstake.txt', 'w') as f_output:
+    for name in names:
+        f_output.write(name + ":")
+        f_output.write('\n')
+        for row in final:
+            for keys, values in row.items():
+                if keys == name:
+                    f_output.write(values + ", ")
+        f_output.write('\n')
